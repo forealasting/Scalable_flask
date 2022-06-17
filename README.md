@@ -3,7 +3,13 @@
 ***Building a Scalable Flask Application using Docker***
 
 
+
+
+
 ### Scenario 1
+
+
+---
 
 First scenario we focus on a single container .
 We use flask to build our web service. 
@@ -21,10 +27,17 @@ We use flask to build our web service.
 •     **Agent is only responsible for forwarding requests in this scenario**
 
 
-### Second scenario 
+
+
+### Scenario 2
+
+
+---
 
 we let system scalable .
 We use static threshold-based approach by setting the maximum tolerance response time T_max=25ms /T_max=30ms.
+
+![](https://i.imgur.com/zUYwPhZ.png)
 
 ##### i.Horizontal elasticity
 1. If the maximum tolerance response time is violated, agent should take action to increase a container(service).
@@ -37,6 +50,9 @@ We use static threshold-based approach by setting the maximum tolerance response
 
 
 
+
+
+---
 
 ***REFERENCES***:
 
